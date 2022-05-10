@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    margin: 0 auto 0 auto;
+}
+
+img {
+    width: 200px;
+    border: 1px solid gray;
+}
+.item {
+    background: #fff;
+    margin: 0px auto;
+    padding: 0px ;
+    flex-basis: 200px; 
+    font-weight: normal;
+    text-align: left;
+}
+
+.item h2 {
+    font-size: 1.2em;
+    line-height: normal;
+    color: #996600;
+    margin: 0 auto;
+}
+
+.item h3 {
+    font-size: 1.2em;
+    line-height: normal;
+    color: #333333;
+    margin: 0 auto;
+}
+
+.item p {
+    font-size: 0.9em;
+    color: #666666;
+    margin: 0 auto;
+}
